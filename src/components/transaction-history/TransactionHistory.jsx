@@ -4,7 +4,7 @@ import { getUpperCase } from "helper-js/changeColor";
 
 export const TransactionHistory = ({ transactions }) => {
     return (
-        <table class={css["transaction-history"]}>
+        <table className={css["transaction-history"]}>
             <thead>
                 <tr>
                     <th>Type</th>
